@@ -1,0 +1,18 @@
+
+/* Login */
+.active{
+    border-top: 13px solid var(--tertiary-color);
+}
+#notme{
+    display: none;
+}
+.form form input{
+    display: block;
+    width: 95%;
+    margin: 4% 1%;
+    padding: 3% 0%;
+}
+#submit{
+    background-color: var(--tertiary-2-color);
+    color: var(--primary-color);
+}
