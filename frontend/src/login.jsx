@@ -34,8 +34,7 @@ export default function Login(){
     }
 
     return(
-        <div className="overlay" id='login'>
-            <div className="content">
+            <div className="content container mx-auto">
                 <div className="menu">
                     <button className={choiceLogin?'choice active':'choice'} onClick={(e)=>setChoice(true)}>Log In</button>
                     <button className={!choiceLogin?'choice active':'choice'} onClick={(e)=>setChoice(false)}>Sign Up</button>
@@ -56,6 +55,5 @@ export default function Login(){
                 <button id='cancel' onClick={(e)=>document.getElementById('login').style.visibility = 'hidden'}>Cancel</button>
                 <button id='submit'onClick={(e)=>submit(e,username,password,choiceLogin)}>{choiceLogin?'Login':'Sign Up'}</button>
             </div>
-        </div>
     )
 }

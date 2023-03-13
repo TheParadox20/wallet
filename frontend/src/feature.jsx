@@ -5,8 +5,8 @@ export default function Feature(){
         <div>
             <button>Transact</button>
             <button>Contract</button>
-            <div id="tx"></div>
-            <div id="contract"></div>
+            <div id="tx">  </div>
+            <div id="contract">  </div>
         </div>
     )
 }
